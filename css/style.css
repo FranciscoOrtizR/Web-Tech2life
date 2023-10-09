@@ -514,13 +514,6 @@ footer {
 h2.accordion-header {
     margin-bottom: 0;
 }
-
-
-
-
-
-
-
 .accordion-header .accordion-button::after {
     background-image: url("../images/image_down.png");
     background-size: 2.25rem;
@@ -559,4 +552,80 @@ body .accordion-flush .accordion-item .accordion-header .accordion-button {
     padding-left: 15rem;
     color: #6F7582;
     line-height: 3.5rem;
+}
+
+.salida_laboral {
+    width: 80%;
+}
+.salida_laboral h1 {
+    font-size: 4.8rem;
+    font-weight: 500;
+}
+.salida_laboral h2 {
+    margin-bottom: 4rem;
+    font-size: 2.4rem;
+}
+
+.laboralUno, .laboralTres {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.laboralDos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.salida_laboral div h2 {
+    color: #353535;
+    font-size: 2.4rem;
+}
+.como_aplicar h1 {
+    font-size: 4.8rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+.como_aplicar h2 {
+    font-size: 2.4rem;
+}
+
+.pasosParaAplicar {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+}
+.pasosParaAplicar > div {
+    width: 28rem;
+}
+
+.como_aplicar :nth-child(5) {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.como_aplicar div a {
+    padding: 1.3rem 9rem;
+}
+.preguntas_frecuentes {
+    width: 65%;
+}
+.preguntas_frecuentes h1 {
+    font-size: 4.8rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+body .preguntas_frecuentes .accordion-flush .accordion-item {
+    box-shadow: none;
+    border-radius: 0rem;
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+body .preguntas_frecuentes .accordion-flush .accordion-item .accordion-header .accordion-button {
+    padding: 2rem 5rem;
+}
+body .preguntas_frecuentes .accordion-collapse .accordion-body {
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
